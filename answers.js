@@ -80,7 +80,22 @@ function numberString(a,b,str) {
     
     console.log(numberString(3,5, "mult"));
     
-        
+ /*Write a function that takes a string and a number, 
+ and returns the string repeated that many number of times. 
+ Test your function with various inputs.  
+ */
+ 
+ function repeat (str, n) {
+    var answer = "";
+    
+    for(var i = 0; i < n; i++) {
+        answer += str;
+    }
+    return answer;
+ }
+ 
+console.log(repeat("hanky", 3));
+
   
  
   
