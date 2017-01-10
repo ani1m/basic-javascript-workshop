@@ -108,4 +108,20 @@ function loop () {
 }
 console.log(loop());
 
-  
+/*Write a function that uses a for loop to print the numbers 
+from 1 to 10 inclusively, but as words ("one", "two", …). 
+As an extra challenge, try to find a solution 
+that does not use an if/else: */
+
+function inWords() {
+    var arr =[];
+    var words = ['one','two', 'three', 'four','five', 'six', 
+    'seven', 'eight', 'nine', 'ten'];
+    for(var i = 0; i < 10; i ++) {
+       arr.push(words[i]);
+    }
+    return arr.join();
+}
+console.log(inWords());
+
+
