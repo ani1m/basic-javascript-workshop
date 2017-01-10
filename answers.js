@@ -52,4 +52,4 @@ function multiply (a,b) {
     return a * b;
 }
 console.log(multiply(3,4));
-console.log(multiply("p",4));
+console.log(multiply("p",4)); // returns NaN
