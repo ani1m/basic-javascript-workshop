@@ -96,6 +96,16 @@ function numberString(a,b,str) {
  
 console.log(repeat("hanky", 3));
 
-  
- 
+/*Write a function that uses a for loop to print 
+the numbers from 1 to 10 inclusively. */
+
+function loop () {
+    var counter= "";
+    for (var i = 1; i <= 10; i++) {
+        counter += i;
+    }
+    return counter;
+}
+console.log(loop());
+
   
