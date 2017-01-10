@@ -30,3 +30,14 @@ function stringNum (str, num) {
 }
 console.log(stringNum("Decode", 3));
 console.log(stringNum("github", 2));
+
+/*Write a function that takes two numbers and adds them together. 
+Test your function on a few inputs. Write in the comments what 
+happens when you pass something other than a number to your 
+function. */
+
+function addTwoNum (a,b) {
+    return a + b ;
+}
+console.log(addTwoNum(3,5));
+console.log(addTwoNum(10,20));
