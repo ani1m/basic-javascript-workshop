@@ -154,3 +154,20 @@ function reverseString(str) {
 
 console.log(reverseString("Hello and Goodbye"));
 console.log(reverseString("helicopter"));
+
+/*Write a function that takes a number and 
+returns the factorial of a number. 
+The factorial of 5 is 5x4x3x2x1. 
+The factorial of 0 is 1. 
+Test your input on a few numbers, including negative numbers.*/
+
+function factorial(n) {
+    if( n === 0) {
+        return 1;
+    } 
+    else {
+        return n * factorial(n-1);
+    }
+}
+console.log(factorial(5));
+console.log(factorial(6));
