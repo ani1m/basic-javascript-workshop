@@ -43,3 +43,13 @@ console.log(addTwoNum(3,5));
 console.log(addTwoNum(10,20));
 console.log(addTwoNum("p", 3));
 
+/*Write a function that takes two numbers and multiplies them 
+together. Test your function on a few inputs. 
+Write in your comments what happens when you pass something other 
+than a number to your function.*/
+
+function multiply (a,b) {
+    return a * b;
+}
+console.log(multiply(3,4));
+console.log(multiply("p",4));
