@@ -41,3 +41,5 @@ function addTwoNum (a,b) {
 }
 console.log(addTwoNum(3,5));
 console.log(addTwoNum(10,20));
+console.log(addTwoNum("p", 3));
+
