@@ -120,8 +120,24 @@ function inWords() {
     for(var i = 0; i < 10; i ++) {
        arr.push(words[i]);
     }
-    return arr.join();
+    return arr.join(); // return the array into a string
 }
 console.log(inWords());
 
+/*Write a function that uses a for loop to print the numbers 
+from 1 to 10 inclusively, but for each number, 
+print it that many number of times:*/
 
+function numberTimes() {
+    var counter = '';
+    for(var i = 1; i <= 10; i++) {
+        counter += i;
+     for (var j = 1; j <= counter.length; j++ ) {
+        if( i > j) {
+            counter += i;
+        }
+        }
+    }
+    return counter;
+}
+console.log(numberTimes());
