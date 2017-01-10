@@ -20,5 +20,13 @@ function lastCharacter(str) {
 }
 console.log(lastCharacter("Ani"));
 
+/*Write a function that takes a string and a number, 
+and returns the character at the position represented 
+by the number. The indexing of number should start at 0. 
+Test your function on a few inputs, including the empty string. */
 
-
+function stringNum (str, num) {
+    return str.charAt(num);
+}
+console.log(stringNum("Decode", 3));
+console.log(stringNum("github", 2));
