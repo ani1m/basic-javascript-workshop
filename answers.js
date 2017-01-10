@@ -53,3 +53,34 @@ function multiply (a,b) {
 }
 console.log(multiply(3,4));
 console.log(multiply("p",4)); // returns NaN
+
+/*Write a function that takes two numbers and a string. 
+If the string is ‘add’, then return the sum of the numbers. 
+If the string is ‘subtract’, return the difference. 
+If the string is ‘mult’, return the product. 
+If the string is ‘div’, return the ratio. 
+Otherwise return 0.*/
+
+function numberString(a,b,str) {
+    if(str === "add") {
+        return a + b;
+    }
+    else if(str === "subtract") {
+        return a - b;
+    }
+    else if(str === "mult") {
+         return a * b;
+    }
+    else if(str === "div") {
+         return a / b;
+    } else {
+        return 0;
+    }
+}
+    
+    console.log(numberString(3,5, "mult"));
+    
+        
+  
+ 
+  
