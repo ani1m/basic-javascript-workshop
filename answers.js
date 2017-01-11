@@ -231,7 +231,17 @@ function largestNum(arr) {
 }
 console.log(largestNum([234,2,432,5]));
 
-    
+/*Write a function that takes an array, and returns a filtered array. 
+The filtered array should only contain the truthy values from the initial 
+array. Hint: there is an array method called filter that can help you 
+with this :)  */
+
+function filterArr(arr) {
+    return arr.filter(function(element) {
+        return element});
+}
+console.log(filterArr([false, 345, "Aye"]));
+
 
 
 
