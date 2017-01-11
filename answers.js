@@ -171,3 +171,32 @@ function factorial(n) {
 }
 console.log(factorial(5));
 console.log(factorial(6));
+
+/*Write a function that takes a phrase as a string, 
+and returns the longest word in that phrase. 
+If the phrase contains more than one such word, 
+return the first occurrence. 
+Test your function on a few inputs.*/
+
+function longestWord(str) {
+
+    var splitArray = str.split(' ');
+    var longestWord = '';
+
+    for (var i = 0; i < splitArray.length; i++) {
+
+        if (splitArray[i].length > longestWord.length) {
+            longestWord = splitArray[i];
+        }
+
+    }
+
+    return longestWord;
+}
+
+console.log(longestWord('Last man standing'));
+console.log(longestWord('Superduper hi bye'));
+
+
+
+  
