@@ -217,6 +217,23 @@ function letterCapitalize(str) {
 console.log(letterCapitalize("hello world from montreal"));
 console.log(letterCapitalize("kAelee and anaYis and fRiendS"));
 
+/* Write a function that takes an array and returns the largest 
+number of the array. Test your function on a few inputs. */
+
+function largestNum(arr) {
+    var large = 0;
+    for(var i = 0; i < arr.length; i++) {
+        if(arr[i] > large) {
+            large = arr[i];
+        }
+    }
+    return large;
+}
+console.log(largestNum([234,2,432,5]));
+
+    
+
+
 
     
 
