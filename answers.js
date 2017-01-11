@@ -242,7 +242,17 @@ function filterArr(arr) {
 }
 console.log(filterArr([false, 345, "Aye"]));
 
+/*Write a function that takes an array of numbers, 
+and returns the sum of all the numbers in the array.*/
 
+function sumArr (arr) {
+    var sum = 0;
+    for(var i = 0; i < arr.length; i++) {
+    sum += arr[i];
+    }
+return sum;
+}
+console.log(sumArr([23,40,34,50]));
 
 
     
